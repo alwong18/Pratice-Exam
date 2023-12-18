@@ -8,3 +8,6 @@
 [node name="player" parent="." instance=ExtResource("1_oqfib")]
 
 [node name="enemy" parent="." instance=ExtResource("2_kpkcy")]
+gravity_scale = 2.66454e-15
+
+[connection signal="body_entered" from="player" to="player" method="_on_body_entered"]
